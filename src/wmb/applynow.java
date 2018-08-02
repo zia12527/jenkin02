@@ -16,7 +16,7 @@ public class applynow {
 	@BeforeClass
 	  public void beforeClass() throws InterruptedException 
 	  {
-		  System.setProperty("webdriver.chrome.driver", "/home/nadsoft34/Desktop/chromedriver");
+		  System.setProperty("webdriver.chrome.driver", "/home/nadsoft34/Desktop/chromedriver")
 			 driver = new ChromeDriver();  
 			 driver.manage().window().maximize();
 			 driver.get("https://maxincomesystem.com/registration");

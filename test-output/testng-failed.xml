@@ -5,10 +5,10 @@
     <classes>
       <class name="wmb.applynow">
         <methods>
-          <include name="aplynow"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
           <include name="afterMethod"/>
+          <include name="f"/>
         </methods>
       </class> <!-- wmb.applynow -->
     </classes>
